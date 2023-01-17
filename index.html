@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mijn Portfolio</title>
+  <style>
+    /*CSS styles */
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    }
+
+    #kop {
+    background-color: #00a8ff;
+    text-align: center;
+    padding: 20px;
+    }
+
+    #kop h1 {
+    color: #ffffff;
+    }
+
+    #overmij {
+    text-align: center;
+    padding: 20px;
+    }
+
+    #vaardigheden ul {
+    display:inline-block;
+    text-align: left;
+    }
+
+    #vaardigheden li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #00a8ff;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 5px;
+    }
+
+    #projecten td {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+    #projecten td a{
+    color: #00a8ff;
+    text-decoration: none;
+    }
+
+    #projecten td a:hover {
+    color: #333333;
+    }
+
+    #opleiding {
+    text-align: center;
+    padding: 20px;
+    }
+
+    #contact {
+    text-align: center;
+    padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="kop">
+    <h1>Mijn Portfolio</h1>
+  </div>
+  
+  <nav>
+    <ul>
+      <li><a href="#overmij">Over mij</a></li>
+      <li><a href="#vaardigheden">Vaardigheden</a></li>
+      <li><a href="#projecten">Projecten</a></li>
+      <li><a href="#opleiding">Opleiding</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div id="overmij">
+    <h2>Over mij</h2>
+    <p>Hallo, mijn naam is Cecil Boye. Ik ben een Front-End developr met ervaring in het bouwen van websites in wordpress, figma en webflow. Ik ben gepassioneerd over programmeren en streef altijd naar het verbeteren van mijn vaardigheden.</p>
+  </div>
+  
+  <hr>
+  
+  <div id="vaardigheden">
+    <h2>Vaardigheden</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>Three.JS</li>
+      <li>HTML/CSS</li>
+      <li>C#</li>
+    </ul>
+  </div>
+  <div id="projecten">
+    <h2>Projecten</h2>
+    <table>
+      <tr>
+        <th>Projectnaam</th>
+        <th>Beschrijving</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>Voetbal management website</td>
+        <td>Een tof project waar ik een website hebt gebouwd voor Youssuof Hersi (Oud ajax speler). Gebouwd in wordpress met js + gsap</td>
+        <td><a href="https://playnowmanagement.com/">Bekijk hier</a></td>
+      </tr>
+      <tr>
+        <td>Zangschool</td>
+        <td>Een leuke website gemaakt voor Sharon Doorson, Na meer dan 10 jaar in de showbiz heeft ze haar eigen Zangschool gestart.</td>
+        <td><a href="https://talentcrib.nl/">Bekijk hier</a></td>
+      </tr>
+    </table>
+  </div>
+  
+  <hr>
+  
+  <div id="opleiding">
+    <h2>Opleiding</h2>
+    <ul>
+      <li>Applicatie Ontwikkelaar MBO 4 - Regio College (afgerond) </li>
+      <li>Technische Informatica HBO - HvA (Niet afgerond)</li>
+    </ul>
+  </div>
+  
+  <hr>
+  
+  <div id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Naam</label>
+      <input type="text" id="name" name="name" placeholder="Uw naam">
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Uw email">
+      
+      <label for="message">Bericht</label>
+      <textarea id="message" name="message" placeholder="Uw bericht"></textarea>
+      
+      <button type="submit">Verstuur</button>
+    </form>
+  </div>
+</body>
+</html>
